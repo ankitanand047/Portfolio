@@ -1,36 +1,34 @@
 # 🌐 Ankit Anand — Personal Portfolio
 
-A modern, responsive personal portfolio website built with **React** and **Vite** to showcase my skills, projects, experience, and resume. The website is optimized for performance and provides a clean user experience across all devices.
+A modern and responsive personal portfolio built with **React** and **Vite**. This website highlights my skills, projects, experience, and resume while delivering a fast, clean, and engaging user experience across all devices.
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio:** https://ankit047-portfolio.vercel.app/
+**Website:** https://ankit047-portfolio.vercel.app/
 
 ---
 
 ## ✨ Features
 
-- 📱 Fully responsive design
-- 👨‍💻 Professional introduction and profile
-- 🚀 Featured projects showcase
-- 📄 Resume section with download option
-- 🎨 Smooth animations and interactive UI
-- ⚡ Fast performance powered by Vite
-- 🌙 Modern and clean interface
+* 📱 Fully responsive design
+* 👨‍💻 Professional introduction and profile
+* 🚀 Featured projects showcase
+* 📄 Resume section
+* 🎨 Smooth animations and interactive UI
+* ⚡ Optimized performance with Vite
+* 🌙 Modern and clean interface
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| React | Frontend Framework |
-| Vite | Build Tool |
-| React Bootstrap | UI Components |
-| React Router DOM | Routing |
-| React Icons | Icon Library |
-| Typewriter Effect | Animated Text |
-| React Parallax Tilt | Interactive Effects |
+* **React**
+* **Vite**
+* **React Bootstrap**
+* **React Router DOM**
+* **React Icons**
+* **Typewriter Effect**
+* **React Parallax Tilt**
 
 ---
 
@@ -54,23 +52,23 @@ src/
 
 ### Prerequisites
 
-Make sure you have installed:
+Ensure you have the following installed:
 
-- Node.js (v18 or later)
-- npm or yarn
+* Node.js (v18 or later)
+* npm or yarn
 
 ### Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/ankitanand047/your-repository-name.git
+git clone https://github.com/ankitanand047/<repository-name>.git
 ```
 
-Navigate to the project directory:
+Navigate to the project folder:
 
 ```bash
-cd your-repository-name
+cd <repository-name>
 ```
 
 Install dependencies:
@@ -79,7 +77,9 @@ Install dependencies:
 npm install
 ```
 
-### Run Development Server
+---
+
+## ▶️ Run the Development Server
 
 ```bash
 npm run dev
@@ -87,21 +87,21 @@ npm run dev
 
 Open your browser and visit:
 
-```
+```text
 http://localhost:5173
 ```
 
 ---
 
-## 📦 Production Build
+## 📦 Build for Production
 
-Create an optimized production build:
+Generate an optimized production build:
 
 ```bash
 npm run build
 ```
 
-The production-ready files will be generated inside the **dist/** directory.
+The build output will be available in the `dist/` directory.
 
 ---
 
@@ -109,17 +109,17 @@ The production-ready files will be generated inside the **dist/** directory.
 
 This project can be deployed on any static hosting platform, including:
 
-- Vercel
-- Netlify
-- GitHub Pages
+* Vercel
+* Netlify
+* GitHub Pages
 
-Simply build the project and deploy the generated **dist/** folder.
+Simply build the project and deploy the generated `dist/` folder.
 
 ---
 
 ## 🎨 Customization
 
-Update the portfolio content by editing the following files:
+To personalize the portfolio, edit the following components:
 
 ```text
 src/components/Home/Home.jsx
@@ -128,7 +128,7 @@ src/components/Projects/Projects.jsx
 src/components/Resume/ResumeNew.jsx
 ```
 
-Feel free to modify colors, animations, components, and styling to make it your own.
+You can also customize the styling, animations, and assets to match your personal brand.
 
 ---
 
@@ -137,14 +137,14 @@ Feel free to modify colors, animations, components, and styling to make it your 
 Contributions, suggestions, and improvements are always welcome.
 
 1. Fork the repository
-2. Create a new feature branch
+2. Create a new branch
 3. Commit your changes
-4. Push to your branch
+4. Push your branch
 5. Open a Pull Request
 
 ---
 
-## 📬 Connect With Me
+## 🌐 Connect With Me
 
 <p align="center">
 
@@ -152,12 +152,16 @@ Contributions, suggestions, and improvements are always welcome.
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://www.linkedin.com/in/ankitanand047">
+<a href="https://www.linkedin.com/in/ankitanand047" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://github.com/ankitanand047">
+<a href="https://github.com/ankitanand047" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://ankit047-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 </p>
