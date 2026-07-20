@@ -15,13 +15,6 @@ function ProfileSummaryCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <h2 className="about-card-title">Profile Snapshot</h2>
-          <p className="about-card-intro">
-            I am focused on building clean full-stack applications and practical
-            machine learning projects while strengthening my fundamentals in
-            problem solving, cloud, and system design.
-          </p>
-
           <ul className="about-card-list" aria-label="About Ankit Anand">
             <li>
               <span className="about-card-icon">

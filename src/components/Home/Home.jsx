@@ -1,18 +1,42 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import homeLogo from "../../Assets/home-main.svg";
 import StarFieldBackground from "../StarFieldBackground";
 import AboutPreview from "./AboutPreview";
 import RoleTypewriter from "./RoleTypewriter";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
 import { AiFillGithub, AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { CgFileDocument } from "react-icons/cg";
 import { FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
+  useEffect(() => {
+    const revealItems = document.querySelectorAll(".scroll-reveal");
+
+    if (!revealItems.length) {
+      return undefined;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    revealItems.forEach((item) => observer.observe(item));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section scroll-reveal" id="home">
         <StarFieldBackground />
         <Container className="home-content">
           <Row className="home-hero-row">
@@ -26,7 +50,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> ANKIT ANAND</strong>
+                <strong className="main-name"> Ankit Anand </strong>
               </h1>
 
               <div className="typewriter-container">
@@ -39,13 +63,9 @@ function Home() {
               </p>
 
               <div className="hero-actions">
-                <Button as={Link} to="/project" variant="primary">
+                <Button href="#projects" variant="primary">
                   <AiOutlineFundProjectionScreen />{" "}
                   View Projects
-                </Button>
-                <Button as={Link} to="/resume" variant="outline-light">
-                  <CgFileDocument />{" "}
-                  View CV
                 </Button>
                 <Button
                   href="mailto:ankitanand.works@gmail.com"
@@ -67,9 +87,19 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <AboutPreview />
+      <div className="scroll-reveal">
+        <AboutPreview />
+      </div>
 
-      <Container className="home-social-section">
+      <div id="about" className="scroll-reveal">
+        <About />
+      </div>
+
+      <div id="projects" className="scroll-reveal">
+        <Projects />
+      </div>
+
+      <Container className="home-social-section scroll-reveal">
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Let's Connect</h1>

@@ -18,7 +18,10 @@ import Mongo from "../../Assets/TechIcons/Mongo.svg";
 
 function SkillGrid() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row
+      className="tech-grid skill-grid"
+      style={{ justifyContent: "center", paddingBottom: "50px" }}
+    >
       <Col xs={4} md={2} className="tech-icons">
         <img src={Python} alt="Python" />
         <div className="tech-icons-text">Python</div>

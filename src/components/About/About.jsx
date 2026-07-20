@@ -14,7 +14,7 @@ function About() {
       <Container fluid className="about-section">
         <Container>
           <h1 className="about-page-title">
-            About <strong className="purple">Me</strong>
+            <strong className="purple">About Me</strong>
           </h1>
           <Row className="about-hero-row">
             <Col md={7} className="about-copy-col">

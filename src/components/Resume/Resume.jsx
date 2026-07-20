@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -8,8 +8,12 @@ import { AiOutlineDownload } from "react-icons/ai";
 function ResumeNew() {
   const resumePreview = `${pdf}#toolbar=0&navpanes=0&scrollbar=0&zoom=100`;
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
-    <Container fluid className="resume-section">
+    <Container fluid className="resume-section" id="resume-section">
       <Particle />
       <div className="resume-download-wrap">
         <Button

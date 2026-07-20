@@ -10,31 +10,27 @@ function AboutPreview() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 className="section-heading">
-              About <span className="purple">Me</span>
+              Know Who <span className="purple">I Am</span>
             </h1>
             <p className="home-about-body">
-              I am a Bachelor of Computer Applications student at
+              I am a Bachelor of Computer Applications student graduate from
               <b className="purple"> Galgotias University</b>, focused on
               building practical software and machine learning projects.
               <br />
               <br />
               My programming skills include
-              <i>
                 <b className="purple">
                   {" "}
                   Python, Java, C/C++, JavaScript, HTML, and CSS{" "}
                 </b>
-              </i>
               with a strong foundation in DSA and OOP.
               <br />
               <br />
               I work with
-              <i>
                 <b className="purple">
                   {" "}
                   React.js, FastAPI, Flask, and Scikit-learn{" "}
                 </b>
-              </i>
               and use MySQL and MongoDB for database-driven applications.
               <br />
               <br />

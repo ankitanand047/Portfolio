@@ -11,7 +11,10 @@ import vsCode from "../../Assets/TechIcons/vscode.svg";
 
 function ToolGrid() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row
+      className="tech-grid tool-grid"
+      style={{ justifyContent: "center", paddingBottom: "50px" }}
+    >
       <Col xs={4} md={2} className="tech-icons">
         <img src={Git} alt="Git" className="tech-icon-images" />
         <div className="tech-icons-text">Git</div>
