@@ -62,13 +62,13 @@ Ensure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/ankitanand047/<repository-name>.git
+git clone https://github.com/ankitanand047/portfolio.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd <repository-name>
+cd portfolio
 ```
 
 Install dependencies:
